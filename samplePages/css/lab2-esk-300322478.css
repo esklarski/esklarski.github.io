@@ -1,0 +1,115 @@
+* {
+    color: black;
+    background-color: #eeeecc;
+}
+
+h1 {
+    text-align: center;
+    color: #ff5e00;
+}
+
+h2 {
+    color: #ff0000;
+    text-indent: 12.5%;
+}
+
+h3 {
+    /* text-indent: 2%; */
+    margin-bottom: 0%;
+    margin-top: 3%;
+}
+
+h3.obnoxiousheading {
+    color: #eeeecc;
+    background-color: #47a4da;
+    border-style: dotted;
+    border-color: #ff4c15;
+    width: 90pt;
+    text-indent: 5%;
+    align-items: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+h4 {
+    text-indent: 20%;
+    margin-bottom: 0%;
+}
+
+hr {
+    width: 75%;
+    min-width: 500pt;
+}
+
+ul {
+    list-style: circle;
+    align-content: left;
+    margin-left: 20%;
+    line-height: 100%;
+}
+
+ol {
+    list-style: upper-roman;
+    align-content: left;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+p {
+    text-align: justify;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+li.witty {
+    font-size: 12px;
+    text-indent: 3%;
+    line-height: 100%;
+    list-style: none;
+}
+
+span {
+    color: #357bfd;
+    font-size: 10px;
+}
+
+figure {
+    margin-left: 12.5%;
+}
+
+img.adaptive {
+    width: 100%;  height: auto;
+}
+
+p.tldr {
+    color: #eeeecc;
+    background-color: blue;
+    margin: 5%;
+}
+
+a.tldr {
+    color: #eeeecc;
+    background-color: blue;
+}
+
+#justgetit {
+    color: white;
+    border: 3pt;
+    border-style: solid;
+    border-color: #357bfd;
+    background-color: blue;
+    margin-left: 30%;
+    margin-right: 30%;
+    min-width: 105pt;
+    padding: 0px;
+    text-align: center;
+    font-size: 10pt;
+}
+
+#reference {
+    list-style: none;
+    color: #ff4c15;
+    line-height: 200%;
+    margin-left: 10%;
+}
