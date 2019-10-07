@@ -1,4 +1,49 @@
+* {
+    font-family: fantasy;
+}
 
+ul {
+    list-style: disc;
+    line-height: 1.5;
+    margin-left: -5%;
+    margin-right: 10%;
+}
+
+ul ul {
+    list-style: none;
+    line-height: 1;
+    margin-top: -20px;
+}
+
+hr {
+    color: black;
+    width: 90%;
+    margin-top: 50px;
+}
+
+p{
+    margin-left: -2%;
+}
+
+.resume {
+    font-family: Calibri;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.resumeLineItem {
+    font-family: Calibri;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 0.75em;
+}
+
+.right {
+    float: right;
+    margin-right: -5%;
+    font-style: italic;
+
+}
 
 #topBar {
     position: absolute;
@@ -63,6 +108,10 @@
     #pageBody {
         top: 170px;
     }
+
+    ul {
+        margin-left: 0%;
+    }
 }
 
 @media only screen and (min-width: 1008px) {
@@ -70,7 +119,7 @@
         top: 80px;
         left: 0%;
         width: 200px;
-        height: 100vmax;
+        height: 110vmax;
         background-color: yellow;
     }
 
@@ -84,3 +133,4 @@
         left: 210px;
     }
 }
+
