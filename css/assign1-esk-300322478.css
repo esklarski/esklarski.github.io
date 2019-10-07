@@ -1,9 +1,11 @@
+
+
 #topBar {
     position: absolute;
     left: 0%;
     top: 0%;
     right: 0%;
-    height: 15%;
+    height: 80px;
     background-color: red;
 }
 
@@ -11,15 +13,16 @@
     text-align: center;
     margin-top: 1%;
     margin-bottom: 0%;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 #navBar {
     position: absolute;
-    top: 15%;
-    scroll-margin-top: 25%;
+    top: 80px;
     left: 0%;
     right: 0%;
+    height: auto;
+    min-height: 120px;
     background-color: blue;
 }
 
@@ -37,27 +40,47 @@
     text-align: center;
 }
 
+#pageBody {
+    position: absolute;
+    top: 195px;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    padding: 10px;
+}
+
 @media only screen and (min-width: 641px) {
     #navBar {
+        height: auto;
+        min-height: 90px;
         background-color: green;
     }
 
     .navButton {
         width: 31.33%;
     }
+
+    #pageBody {
+        top: 170px;
+    }
 }
 
 @media only screen and (min-width: 1008px) {
     #navBar {
-        top: 15%;
+        top: 80px;
         left: 0%;
-        right: 80%;
-        bottom: 0%;
+        width: 200px;
+        height: 100vmax;
         background-color: yellow;
     }
 
     .navButton {
         float: right;
         width: 98%;
+    }
+
+    #pageBody {
+        top: 70px;
+        left: 210px;
     }
 }
