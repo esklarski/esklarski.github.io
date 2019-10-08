@@ -31,6 +31,16 @@ img {
     margin-right: 10%;
 }
 
+.frontPage {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.frontPageImage {
+    width: 50%;
+    margin-left: 24%;
+}
+
 .centered {
     text-align: center;
     margin-bottom: 5%;
@@ -62,7 +72,9 @@ img {
     top: 0%;
     right: 0%;
     height: 80px;
-    background-color: red;
+    /* background-color: red; */
+    background: red url(../img/bannerPicture.jpg);
+    background-size: 200% 100%;
 }
 
 #pageTitle {
@@ -79,7 +91,7 @@ img {
     right: 0%;
     height: auto;
     min-height: 120px;
-    background-color: blue;
+    background-color: #325474;
 }
 
 .navButton {
@@ -115,10 +127,14 @@ img {
 }
 
 @media only screen and (min-width: 641px) {
+    #topBar {
+        background-size: 100% 100%;
+    }
+
     #navBar {
         height: auto;
         min-height: 90px;
-        background-color: green;
+        /* background-color: green; */
     }
 
     .navButton {
@@ -147,12 +163,13 @@ img {
         left: 0%;
         width: 200px;
         height: auto;
-        background-color: yellow;
+        /* background-color: yellow; */
     }
 
     .navButton {
         float: right;
-        width: 98%;
+        margin: 3%;
+        width: 94%;
     }
 
     #pageBody {
