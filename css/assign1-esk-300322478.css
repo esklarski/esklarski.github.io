@@ -162,18 +162,14 @@ p{
 
 
 
-
 /* formspree.io form config */
-
 #fs-frm input,
 #fs-frm select,
-#fs-frm button,
 #fs-frm textarea,
 #fs-frm fieldset,
-#fs-frm optgroup,
 #fs-frm label {
   font-family: inherit;
-  font-size: 100%;
+  font-size: 90%;
   color: inherit;
   border: none;
   border-radius: 0;
@@ -184,18 +180,15 @@ p{
   -webkit-appearance: none;
   -moz-appearance: none;
 }
-#fs-frm label,
-#fs-frm legend {
+#fs-frm label {
   font-size: .825em;
   margin-bottom: .5em;
 }
-/* border, padding, margin, width */
 #fs-frm input,
 #fs-frm select,
-#fs-frm button,
 #fs-frm textarea {
-  border: 1px solid rgba(0,0,0,0.2);
-  background-color: rgba(255,255,255,0.9);
+  border: 1px solid rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.1);
   padding: .75em 1em;
   margin-bottom: 1.5em;
 }
@@ -212,27 +205,17 @@ p{
 #fs-frm [type="email"] {
   width: 100%;
 }
-#fs-frm button,
-#fs-frm [type="button"],
-#fs-frm [type="submit"],
-#fs-frm [type="reset"] {
+#fs-frm [type="submit"] {
   width: auto;
   cursor: pointer;
+  background-color: rgb(29,202,52,0.8);
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
 }
-#fs-frm button:focus,
-#fs-frm [type="button"]:focus,
-#fs-frm [type="submit"]:focus,
-#fs-frm [type="reset"]:focus {
-  outline: none;
+#fs-frm [type="submit"]:focus {
+  outline: blue;
 }
-#fs-frm [type="submit"],
-#fs-frm [type="reset"] {
+#fs-frm [type="submit"] {
   margin-bottom: 0;
-}
-#fs-frm button,
-#fs-frm select {
-  text-transform: none;
 }
