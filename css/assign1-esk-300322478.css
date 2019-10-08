@@ -25,6 +25,17 @@ p{
     margin-left: 0%;
 }
 
+img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.centered {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
 .resume {
     font-family: Calibri;
     margin-left: 2%;
