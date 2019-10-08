@@ -52,6 +52,10 @@ img {
     margin-right: 2%;
 }
 
+.resumeTop {
+    list-style: none;
+}
+
 .resumeLineItem {
     font-family: Calibri;
     margin-left: 2%;
@@ -78,6 +82,7 @@ img {
 }
 
 #pageTitle {
+    color: antiquewhite;
     text-align: center;
     margin-top: 1%;
     margin-bottom: 0%;
