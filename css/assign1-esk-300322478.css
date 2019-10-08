@@ -94,6 +94,15 @@ p{
     padding: 10px;
 }
 
+#pageBodyContact {
+    position: absolute;
+    top: 220px;
+    left: 10%;
+    right: 15%;
+    height: auto;
+    padding: 10px;
+}
+
 @media only screen and (min-width: 641px) {
     #navBar {
         height: auto;
@@ -107,6 +116,13 @@ p{
 
     #pageBody {
         top: 190px;
+    }
+
+    #pageBodyContact {
+        top: 190px;
+        left: 15%;
+        width: 60%;
+        /* max-width: 600px; */
     }
 
     ul {
@@ -133,12 +149,21 @@ p{
         left: 210px;
         padding-left: 10px;
     }
+
+    #pageBodyContact {
+        top: 80px;
+        left: 300px;
+        /* right: 5%; */
+        width: 50%;
+        max-width: 600px;
+        padding: 10px;
+    }
 }
 
 
 
 
-
+/* formspree.io form config */
 
 #fs-frm input,
 #fs-frm select,
