@@ -68,12 +68,10 @@ img {
     margin-right: 0%;
 }
 
-
 .right {
     float: right;
     margin-right: -5%;
     font-style: italic;
-
 }
 
 #topBar {
@@ -82,8 +80,7 @@ img {
     top: 0%;
     right: 0%;
     height: 80px;
-    /* background-color: red; */
-    background: red url(../img/bannerPicture.jpg);
+    background: #012e58 url(../img/bannerPicture.jpg);
     background-size: 200% 100%;
 }
 
@@ -102,7 +99,6 @@ img {
     right: 0%;
     height: auto;
     min-height: 120px;
-    /* background-color: #325474; */
     background-color: #012e58;
 }
 
@@ -118,6 +114,8 @@ img {
     background-color: #e5e5e5;
     padding: 2px;
     text-align: center;
+    animation-name: superfluous;
+    animation-duration: 1s;
 }
 
 #pageBody {
@@ -138,6 +136,15 @@ img {
     padding: 10px;
 }
 
+@keyframes superfluous {
+    from {
+        background-color: #e5e5e5;
+    }
+    to {
+        background-color: #012e58;
+    }
+}
+
 @media only screen and (min-width: 641px) {
     #topBar {
         background-size: 100% 100%;
@@ -146,7 +153,6 @@ img {
     #navBar {
         height: auto;
         min-height: 90px;
-        /* background-color: green; */
     }
 
     .navButton {
@@ -161,7 +167,6 @@ img {
         top: 190px;
         left: 15%;
         width: 60%;
-        /* max-width: 600px; */
     }
 
     ul {
@@ -175,7 +180,6 @@ img {
         left: 0%;
         width: 200px;
         height: auto;
-        /* background-color: yellow; */
     }
 
     .navButton {
@@ -193,7 +197,6 @@ img {
     #pageBodyContact {
         top: 80px;
         left: 300px;
-        /* right: 5%; */
         width: 50%;
         max-width: 600px;
         padding: 10px;
