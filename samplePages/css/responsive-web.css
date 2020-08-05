@@ -13,16 +13,18 @@ div {
     
     box-sizing: border-box;
     margin: 2%;
+    text-align: center;
 }
 
 .references {
     width: 96%;
+    text-align: left;
 }
 
 [class*="-1"] {
     font-size: 10em;
+    color: lightgrey;
     background-color: blue;
-    text-align: center;
 }
 
 [class*="-2"] {
