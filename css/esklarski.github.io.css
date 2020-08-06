@@ -122,7 +122,7 @@ img {
     padding: 2px;
     text-align: center;
     animation-name: superfluous;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
 }
 
 #pageBody {
@@ -144,8 +144,8 @@ img {
 }
 
 @keyframes superfluous {
-    from {background-color: #e5e5e5;}
-    to {background-color: #012e58;}
+    from {background-color: #dfdfdf;}
+    to {background-color: #9cb7d1;}
 }
 
 @font-face {
