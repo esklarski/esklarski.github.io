@@ -105,14 +105,17 @@ img {
     left: 0%;
     right: 0%;
     height: auto;
-    min-height: 120px;
+    /* min-height: 120px; */
     background-color: #012e58;
 }
 
 .navButton {
     box-sizing: border-box;
     float: left;
-    margin: 1%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 1%;
+    margin-right: 1%;
     width: 48%;
     border-style: solid;
     border-width: 5px;
@@ -166,10 +169,10 @@ img {
         font-size: 3em;
     }
 
-    #navBar {
+    /* #navBar {
         height: auto;
         min-height: 90px;
-    }
+    } */
 
     .navButton {
         width: 31.33%;
@@ -190,7 +193,7 @@ img {
     }
 }
 
-@media only screen and (min-width: 1008px) {
+/* @media only screen and (min-width: 1008px) {
     #navBar {
         top: 80px;
         left: 0%;
@@ -224,7 +227,7 @@ img {
         max-width: 600px;
         padding: 10px;
     }
-}
+} */
 
 
 
