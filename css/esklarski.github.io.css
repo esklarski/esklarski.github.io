@@ -4,7 +4,7 @@
 
 ul {
     list-style: disc;
-    line-height: 1.5;
+    line-height: 2;
     margin-right: 5%;
 }
 
@@ -18,7 +18,7 @@ h3 {
 
 ul ul {
     list-style: none;
-    line-height: 1;
+    line-height: 3;
     margin-top: -10px;
 }
 
@@ -30,6 +30,8 @@ hr {
 
 p{
     margin: 2.5%;
+    margin-left: 10%;
+    width: 80%;
 }
 
 img {
