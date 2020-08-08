@@ -196,41 +196,41 @@ img {
     }
 }
 
-/* @media only screen and (min-width: 1008px) {
-    #navBar {
+@media only screen and (min-width: 1008px) {
+    /* #navBar {
         top: 80px;
         left: 0%;
         width: 200px;
         height: auto;
-    }
+    } */
 
-    #pageTitle {
+    /* #pageTitle {
         margin-top: 0%;
         margin-bottom: 0%;
         margin-left: 5%;
         font-size: 4em;
-    }
+    } */
 
     .navButton {
-        float: right;
-        margin: 3%;
-        width: 94%;
+        /* float: right; */
+        margin: 1%;
+        width: 14.5%;
     }
 
-    #pageBody {
+    /* #pageBody {
         top: 80px;
         left: 210px;
         padding-left: 10px;
-    }
+    } */
 
-    #pageBodyContact {
+    /* #pageBodyContact {
         top: 80px;
         left: 300px;
         width: 50%;
         max-width: 600px;
         padding: 10px;
-    }
-} */
+    } */
+}
 
 
 
