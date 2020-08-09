@@ -82,6 +82,13 @@ img {
     font-style: italic;
 }
 
+.pictureCaption {
+    font-size: 0.75em;
+    text-align: right;
+    margin-top: 0;
+    margin-right: -10%;
+}
+
 #topBar {
     position: absolute;
     left: 0%;
