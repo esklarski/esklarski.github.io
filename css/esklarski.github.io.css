@@ -49,11 +49,8 @@ form {
 .frontPage {
     margin-left: 10%;
     margin-right: 20%;
-}
-
-.frontPageImage {
-    width: 50%;
-    margin-left: 24%;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 .centered {
