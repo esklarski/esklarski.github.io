@@ -40,6 +40,12 @@ img {
     margin-right: 10%;
 }
 
+form {
+    width: 75;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
 .frontPage {
     margin-left: 10%;
     margin-right: 20%;
@@ -147,13 +153,10 @@ img {
     padding: 10px;
 }
 
-#pageBodyContact {
-    position: absolute;
-    top: 220px;
-    left: 10%;
-    right: 15%;
-    height: auto;
-    padding: 10px;
+.contactBanner {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 @keyframes superfluous {
@@ -192,11 +195,11 @@ img {
         top: 190px;
     }
 
-    #pageBodyContact {
+    /* #pageBodyContact {
         top: 190px;
         left: 15%;
         width: 60%;
-    }
+    } */
 
     ul {
         margin-left: 0%;
@@ -296,5 +299,5 @@ img {
   outline: blue;
 }
 #fs-frm [type="submit"] {
-  margin-bottom: 0;
+  margin-bottom: 40px;
 }
